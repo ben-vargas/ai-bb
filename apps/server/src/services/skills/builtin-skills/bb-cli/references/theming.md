@@ -147,6 +147,7 @@ semantic** tokens; the rest derive.
 | `--warning`, `--warning-text` | warning fills / warning text |
 | `--attention` | attention indicator (amber dot) |
 | `--success` | success states: passing checks, open PR |
+| `--unread-dot` | threads-list unread marker dot (auto-derives from `--muted-foreground` at 60% alpha; override to make unread threads pop without touching secondary text) |
 | `--diff-added`, `--diff-removed` | added/removed line colors in diffs |
 | `--pr-merged` | merged-PR purple (the universal merged color) |
 

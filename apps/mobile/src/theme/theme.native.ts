@@ -170,6 +170,7 @@ export interface NativeThemeTokens {
   surfaceSelected: string;
   surfaceSelectedBorder: string;
   timelineAccent: string;
+  unreadDot: string;
   versionUpgrade: string;
   warning: string;
   warningText: string;
@@ -279,6 +280,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(136, 57, 239, 0.16)",
       surfaceSelectedBorder: "rgba(136, 57, 239, 0.35)",
       timelineAccent: "#1e66f5",
+      unreadDot: "rgba(92, 95, 119, 0.6)",
       versionUpgrade: "#52556e",
       warning: "#df8e1d",
       warningText: "#b8730a",
@@ -380,6 +382,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(203, 166, 247, 0.12)",
       surfaceSelectedBorder: "rgba(203, 166, 247, 0.35)",
       timelineAccent: "#89b4fa",
+      unreadDot: "rgba(186, 194, 222, 0.6)",
       versionUpgrade: "#c5ceeb",
       warning: "#f9e2af",
       warningText: "#f9e2af",
@@ -483,6 +486,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(0, 122, 255, 0.16)",
       surfaceSelectedBorder: "rgba(0, 122, 255, 0.35)",
       timelineAccent: "#4075aa",
+      unreadDot: "rgba(102, 102, 102, 0.6)",
       versionUpgrade: "#000000",
       warning: "#ff9500",
       warningText: "#b84d00",
@@ -584,6 +588,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(10, 132, 255, 0.12)",
       surfaceSelectedBorder: "rgba(10, 132, 255, 0.35)",
       timelineAccent: "#79a9db",
+      unreadDot: "rgba(140, 140, 140, 0.6)",
       versionUpgrade: "#f2f2f2",
       warning: "#ff9f0a",
       warningText: "#ff9f0a",
@@ -687,6 +692,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(125, 91, 190, 0.16)",
       surfaceSelectedBorder: "rgba(125, 91, 190, 0.35)",
       timelineAccent: "#1f6f8b",
+      unreadDot: "rgba(95, 97, 108, 0.6)",
       versionUpgrade: "#2f313d",
       warning: "#b8762e",
       warningText: "#8f5a22",
@@ -788,6 +794,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(189, 147, 249, 0.12)",
       surfaceSelectedBorder: "rgba(189, 147, 249, 0.35)",
       timelineAccent: "#8be9fd",
+      unreadDot: "rgba(178, 180, 188, 0.6)",
       versionUpgrade: "#edeef4",
       warning: "#ffb86c",
       warningText: "#ffb86c",
@@ -891,6 +898,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(7, 102, 120, 0.16)",
       surfaceSelectedBorder: "rgba(7, 102, 120, 0.35)",
       timelineAccent: "#076678",
+      unreadDot: "rgba(110, 107, 94, 0.6)",
       versionUpgrade: "#413f3a",
       warning: "#d65d0e",
       warningText: "#af3a03",
@@ -992,6 +1000,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(131, 165, 152, 0.12)",
       surfaceSelectedBorder: "rgba(131, 165, 152, 0.35)",
       timelineAccent: "#83a598",
+      unreadDot: "rgba(171, 160, 133, 0.6)",
       versionUpgrade: "#e2d3ac",
       warning: "#fe8019",
       warningText: "#fe8019",
@@ -1095,6 +1104,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(94, 129, 172, 0.16)",
       surfaceSelectedBorder: "rgba(94, 129, 172, 0.35)",
       timelineAccent: "#5e81ac",
+      unreadDot: "rgba(97, 103, 114, 0.6)",
       versionUpgrade: "#343a46",
       warning: "#d08770",
       warningText: "#99543a",
@@ -1196,6 +1206,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(136, 192, 208, 0.12)",
       surfaceSelectedBorder: "rgba(136, 192, 208, 0.35)",
       timelineAccent: "#88c0d0",
+      unreadDot: "rgba(161, 167, 179, 0.6)",
       versionUpgrade: "#d1d6e2",
       warning: "#d08770",
       warningText: "#e0a48f",
@@ -1299,6 +1310,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(38, 139, 210, 0.16)",
       surfaceSelectedBorder: "rgba(38, 139, 210, 0.35)",
       timelineAccent: "#268bd2",
+      unreadDot: "rgba(73, 110, 103, 0.6)",
       versionUpgrade: "#103d47",
       warning: "#cb4b16",
       warningText: "#a53c12",
@@ -1400,6 +1412,7 @@ export const nativeThemes: Record<BuiltInThemeId, NativeThemeModes> = {
       surfaceSelected: "rgba(38, 139, 210, 0.12)",
       surfaceSelectedBorder: "rgba(38, 139, 210, 0.35)",
       timelineAccent: "#2aa198",
+      unreadDot: "rgba(103, 123, 130, 0.6)",
       versionUpgrade: "#8d9ba0",
       warning: "#cb4b16",
       warningText: "#e07a4e",

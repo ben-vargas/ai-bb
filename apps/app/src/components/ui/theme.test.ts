@@ -295,6 +295,25 @@ describe("theme.css Cadence text tokens", () => {
   }
 });
 
+describe("theme.css unread marker token", () => {
+  it("registers the unread-dot utility with Tailwind", () => {
+    expect(css).toMatch(/--color-unread-dot:\s*var\(--unread-dot\);/);
+  });
+
+  for (const mode of MODES) {
+    it(`derives the ${mode} unread dot from the secondary-text tier in a hue-safe space`, () => {
+      // Palettes recolor the dot by overriding --unread-dot; left alone it must
+      // track --muted-foreground so tinted palettes never strand it grey. The
+      // 60% step is pinned: it is the exact opacity the retired
+      // bg-muted-foreground/60 utility painted, so this is the visual-parity
+      // invariant, not a tunable.
+      expect(variableValue(modeBlock(mode), "unread-dot")).toBe(
+        "color-mix(in oklab, var(--muted-foreground) 60%, transparent)",
+      );
+    });
+  }
+});
+
 describe("theme.css semantic update surfaces", () => {
   it("registers the attention surface utility with Tailwind", () => {
     expect(css).toMatch(

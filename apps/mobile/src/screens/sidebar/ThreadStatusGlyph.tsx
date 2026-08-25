@@ -58,7 +58,7 @@ export function ThreadStatusGlyph({ kind }: { kind: ThreadListIndicatorKind }) {
       return (
         <View
           accessibilityLabel={label}
-          className="h-2 w-2 rounded-full bg-muted-foreground/60"
+          className="h-2 w-2 rounded-full bg-unread-dot"
         />
       );
     case "none":

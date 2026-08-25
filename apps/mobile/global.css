@@ -30,6 +30,7 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-subtle-foreground: var(--subtle-foreground);
+  --color-unread-dot: var(--unread-dot);
   --color-readback-foreground: var(--readback-foreground);
   --color-timeline-accent: var(--timeline-accent);
   --color-version-upgrade: var(--version-upgrade);

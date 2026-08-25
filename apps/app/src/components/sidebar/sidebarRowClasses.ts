@@ -25,7 +25,7 @@ export const SIDEBAR_WORKING_STATUS_COLOR_CLASS = "text-muted-foreground/50";
 export const SIDEBAR_SUCCESS_STATUS_COLOR_CLASS = "text-success-foreground";
 
 export const SIDEBAR_SUCCESS_STATUS_DOT_CLASS =
-  "size-[5px] rounded-full bg-muted-foreground/60 max-md:pointer-coarse:size-1.5";
+  "size-[5px] rounded-full bg-unread-dot max-md:pointer-coarse:size-1.5";
 
 // Identity-glyph slot: the section / worktree icon box on a disclosure header.
 export const SIDEBAR_LEADING_GLYPH_SLOT_CLASS =
