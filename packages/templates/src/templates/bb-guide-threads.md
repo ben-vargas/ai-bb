@@ -353,7 +353,7 @@ Interactions:
 Queued messages:
 
   bb thread queue list [<thread-id>] [--wait-holder plugin:<plugin-id>]
-  bb thread queue create <thread-id> <message>
+  bb thread queue create <thread-id> <message> [--file <path>] [--image <path>]
   bb thread queue update <thread-id> <message-id> <message> [--file <path>] [--image <path>]
   bb thread queue send <thread-id> <message-id> [--mode auto|steer]
   bb thread queue reorder <thread-id> <message-id> [--after <id>] [--before <id>]
